@@ -68,30 +68,31 @@ Database & Cloud Security: Firebase Realtime Database (REST API Integration)
 Graphical Interface: CustomTkinter & Native Tkinter Event Queue
 Data Processing: Pandas & OpenPyXL
 
+```markdown
 ## 📦 Installation & Setup
 
 1. **Clone the Repository:**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/property-automation-framework.git](https://github.com/YOUR_USERNAME/property-automation-framework.git)
-cd property-automation-framework```
+git clone https://github.com/YOUR_USERNAME/property-automation-framework.git
+cd property-automation-framework
+```
 
+2. **Install Dependencies:**
 ```bash
 pip install -r requirements.txt
-(Note: Ensure you have customtkinter, google-generativeai, pandas, openpyxl, selenium, and python-dotenv installed).
 ```
+*(Note: Ensure you have `customtkinter`, `google-generativeai`, `pandas`, `openpyxl`, `selenium`, and `python-dotenv` installed).*
 
-Configure Environment Variables:
-Create a .env file in the root directory based on the .env.example structure:
-
-```
+3. **Configure Environment Variables:**
+Create a `.env` file in the root directory based on the `.env.example` structure:
+```env
 GEMINI_API_KEY=your_google_gemini_api_key
 FIREBASE_URL=your_firebase_realtime_database_endpoint
 TARGET_URL=your_target_property_website_url
-Execute the Application:
 ```
 
-```
-Bash
+4. **Execute the Application:**
+```bash
 python main.py
 ```
 🔒 Security & Best Practices
