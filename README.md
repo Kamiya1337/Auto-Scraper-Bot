@@ -4,11 +4,11 @@ An automated tool for scraping, analyzing, and generating real-estate leads usin
 ---
 
 ## 🚀 Key Features
-**Smart Scraper:** Filters and extracts property listings from the web by area, price, and amenities.
-**AI Lead Filtering:** Uses Gemini 1.5 Flash to identify genuine buyers/renters on social media while filtering out spam and brokers.
-**Cloud License System:** Uses Firebase to authorize users via Hardware ID (HWID) and manage token limits.
-**Background Multi-threading:** Runs automation and live-monitoring tasks concurrently in the background.
-**Interactive HUD:** Built with CustomTkinter to show real-time process logs inside a clean desktop window.
+- **Smart Scraper:** Filters and extracts property listings from the web by area, price, and amenities.
+- **AI Lead Filtering:** Uses Gemini 1.5 Flash to identify genuine buyers/renters on social media while filtering out spam and brokers.
+- **Cloud License System:** Uses Firebase to authorize users via Hardware ID (HWID) and manage token limits.
+- **Background Multi-threading:** Runs automation and live-monitoring tasks concurrently in the background.
+- **Interactive HUD:** Built with CustomTkinter to show real-time process logs inside a clean desktop window.
 
 ---
 
@@ -56,14 +56,15 @@ An automated tool for scraping, analyzing, and generating real-estate leads usin
 |         (Operational Logs & Live Credit Deductions)         |
 +-------------------------------------------------------------+
 ```
-⚙️ Core Technical Stack
-Language: Python 3.10+
 
-Automation: Selenium WebDriver (Edge Engine)
-Artificial Intelligence: Google Generative AI SDK (gemini-2.5-flash)
-Database & Cloud Security: Firebase Realtime Database (REST API Integration)
-Graphical Interface: CustomTkinter & Native Tkinter Event Queue
-Data Processing: Pandas & OpenPyXL
+⚙️ **Core Technical Stack**
+- Language: Python 3.10+
+- **Automation:** Selenium WebDriver (Edge Engine)
+- **Artificial Intelligence:** Google Generative AI SDK (gemini-2.5-flash)
+- **Database & Cloud Security:** Firebase Realtime Database (REST API Integration)
+- **Graphical Interface:** CustomTkinter & Native Tkinter Event Queue
+- **Data Processing:** Pandas & OpenPyXL
+
 
 ```markdown
 ## 📦 Installation & Setup
