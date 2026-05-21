@@ -71,8 +71,8 @@ An automated tool for scraping, analyzing, and generating real-estate leads usin
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/property-automation-framework.git
-cd property-automation-framework
+git clone https://github.com/Kamiya1337/Auto-Scraper-Bot.git
+cd Auto-Scraper-Bot
 ```
 
 2. **Install Dependencies:**
