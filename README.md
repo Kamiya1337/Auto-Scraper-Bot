@@ -58,7 +58,7 @@ An automated real-estate scraping, analysis, and lead-generation framework power
 |                     Firebase Telemetry                      |
 |         (Operational Logs & Live Credit Deductions)         |
 +-------------------------------------------------------------+
-
+```
 ⚙️ Core Technical Stack
 Language: Python 3.10+
 
