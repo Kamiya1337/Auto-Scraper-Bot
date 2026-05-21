@@ -1,17 +1,14 @@
 # Real-Estate Lead Automation Framework
-
-An automated real-estate scraping, analysis, and lead-generation framework powered by Selenium, Google Gemini AI, and Firebase Realtime Database. This production-ready system streamlines property distribution across multiple social platforms while utilizing advanced AI to analyze and filter high-quality customer leads in real-time.
+An automated tool for scraping, analyzing, and generating real-estate leads using Selenium, Gemini AI, and Firebase. It streamlines listing distribution across social platforms and uses AI to identify high-quality customer leads in real-time.
 
 ---
 
 ## 🚀 Key Features
-
-* **Smart Generic Scraper:** Dynamically extracts target listings with support for advanced parameter matching (districts, pricing brackets, specific housing amenities).
-* **AI-Powered Lead Extraction (Gemini 1.5 Flash):** Evaluates user posts natively to distinguish genuine renters/buyers from spam or hidden brokers, extracting exact budget parameters and geographical preferences.
-* **Asynchronous Multi-threading:** Employs daemon threads to process network requests, manage live log queues, and execute platform automation concurrently without UI freezing.
-* **Cloud-Based Token & Licensing Controller:** Integrated with Firebase Realtime Database via a custom REST API layer to enforce hardware ID (HWID) authentication, remote status monitoring, and real-time usage quota (Credits/Tokens) deductions.
-* **Resilient Interaction Engine:** Features anti-fingerprinting configurations and dynamic DOM error recovery (`StaleElementReferenceException`) to navigate layout shifts during social media interactions.
-* **Live HUD Monitoring:** Implements a standalone, zero-memory-leak logging dashboard using `customtkinter` to track execution metrics, operation runtimes, and real-time operational diagnostics.
+**Smart Scraper:** Filters and extracts property listings from the web by area, price, and amenities.
+**AI Lead Filtering:** Uses Gemini 1.5 Flash to identify genuine buyers/renters on social media while filtering out spam and brokers.
+**Cloud License System:** Uses Firebase to authorize users via Hardware ID (HWID) and manage token limits.
+**Background Multi-threading:** Runs automation and live-monitoring tasks concurrently in the background.
+**Interactive HUD:** Built with CustomTkinter to show real-time process logs inside a clean desktop window.
 
 ---
 
@@ -96,9 +93,8 @@ TARGET_URL=your_target_property_website_url
 python main.py
 ```
 🔒 Security & Best Practices
-Zero-Hardcode Principle: All credentials, target domains, and API endpoint hooks are fully externalized via environment variables (.env), keeping the core codebase abstract and clean for enterprise portfolio inspection.
-
-Rate Limiting & Safety Cooldowns: Built-in adaptive delay modules and countdown mechanisms emulate human-like behavior, preventing rapid endpoint flooding or sudden security checkpoints on host networks.
+**Environment Configurations:** Database endpoints, and target URLs are loaded via a secure .env file, keeping the codebase completely clean and abstract.
+**Dynamic Cooldowns:** Built-in sleep variations mimic human behavior to prevent rapid requests and protect social accounts from getting flagged.
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details. This repository is hosted strictly for educational purposes and technical evaluation.
