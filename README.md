@@ -12,6 +12,24 @@ An automated tool for scraping, analyzing, and generating real-estate leads usin
 
 ---
 
+## 🖥️ User Interface Showcase
+The tool features a modern, minimal UI powered by CustomTkinter, complete with a Dark Mode for improved readability and user experience.
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/gui_main.png" width="400">
+      <br>
+      <b>Main UI</b>
+    </td>
+    <td align="center">
+      <img src="assets/minilog.png" width="400">
+      <br>
+      <b>Mini Live HUD</b>
+    </td>
+  </tr>
+</table>
+
 ## 📊 Performance
 Since the implementation of the automation framework, the tool has delivered significant positive impact over the past 28 days:
 
