@@ -1,0 +1,9 @@
+customtkinter
+google-generativeai
+pandas
+openpyxl
+selenium
+python-dotenv
+pyperclip
+requests
+pillow
