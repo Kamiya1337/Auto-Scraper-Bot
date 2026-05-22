@@ -12,6 +12,21 @@ An automated tool for scraping, analyzing, and generating real-estate leads usin
 
 ---
 
+## 📊 Performance
+Since the implementation of the automation framework, the tool has delivered significant positive impact over the past 28 days:
+
+<div align="center">
+  <img src="assets/engagement_data.png" width="45%"> <img src="assets/audience_data.png" width="45%">
+  <br>
+  <img src="assets/reach_data.png" width="60%">
+</div>
+
+**Key Results:**
+* **Total Reach:** Over 24,000 unique impressions, a 104% increase compared to the previous period.
+* **Engagement:** Achieved over 2,100 interactions, demonstrating highly effective content targeting.
+* **Traffic:** 51% of traffic originated from Facebook Groups, validating the efficiency of the "Auto Post Group" module.
+* **Audience:** 99.6% of the reach consisted of non-followers, confirming the framework's success in expanding potential lead acquisition.
+
 ## 🏗️ System Architecture
 
 ```text
